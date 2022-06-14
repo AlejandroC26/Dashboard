@@ -45,7 +45,6 @@ html {
     font-size: 14px;
 }
 body {
-    width: 100vw;
     height: 100vh;
     font-family: poppins, sans-serif;
     font-size: 0.88rem;
@@ -450,7 +449,6 @@ main .insights small {
 .right .sales-analytics .add-product div h3 {
     font-weight: 600;
 }
-
 /* ===========MEDIA QUERIES =========*/
 @media screen and (max-width: 1200px){
     .container {
@@ -564,5 +562,14 @@ main .insights small {
 
     .right .top button span {
         font-size: 2rem;
+    }
+
+    .profile-photo{
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius:50%;
+        overflow: hidden;
     }
 }
